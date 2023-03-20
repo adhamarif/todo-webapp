@@ -1,0 +1,104 @@
+body {
+  background-color: lightgrey;
+  font-family: sans-serif;
+  margin: 0 0 auto 0;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  background-color: #0d1823;
+  margin-top: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+select {
+  width: 30%
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 5px;
+}
+
+
+
+input {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.move_to_right {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.row {
+  background-color: #0d1823;
+  color: white;
+  margin-bottom: 5px;
+  padding: 7px 5px 10px 5px;
+}
+
+.list_selection {
+  margin-left: 8px;
+}
+
+.list_selection_buttons {
+  margin-left: 8px;
+}
+
+.show_add {
+  background-color: #0d1823;
+  border-style: none;
+  color: white;
+  margin-top: 5px;
+  padding: 8px 16px;
+  transition-duration: 500ms;
+}
+
+.show_add:hover {
+  background: #30e3cb;
+
+}
+
+.delete_list {
+  background-color: #f44336;
+  border-style: none;
+  color: white;
+  margin-top: 5px;
+  padding: 8px 16px;
+  transition-duration: 500ms;
+}
+
+.delete_list:hover {
+  background: green;
+}
+
+.delete_item {
+  position: relative;
+  background-color: #f44336;
+  border-style: none;
+  color: white;
+  float: right;
+  padding: 10px 6px;
+  bottom: 25px;
+  left: 5px;
+  transition-duration: 500ms;
+}
+
+.delete_item:hover {
+  background: green;
+}
+
+.add_new_list {
+  margin-left: 8px;
+}
+
+.item {
+  width: 80%;
+}
