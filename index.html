@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HSD Daisy TODO Application</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon-32x32.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>HSD Daisy TODO Application</h1>
+  <div class='list_selection'>
+    <p> Wählen Sie bitte eine TODO Liste aus der folgenden Liste aus: </p>
+    <select>
+      <option id=11>Klausur</option>
+      <option id=12>WebTech</option>
+      <option id=13>Sport</option>
+      <option id=14>Cooks</option>
+      <option id=l5>Gaming</option>
+    </select>
+  </div>
+
+  <div class='list_selection_buttons'>
+    <button class="show_add" type="button" onclick="update_todo_items()">Anzeigen</button>
+    <button class="delete_list" type="button" onclick="remove_todo_list()">Löschen</button>
+  </div>
+  <br>
+
+  <form>
+    <div class="add_new_list">
+      <p> Weiteren TODO-Liste hinzufügen: </p>
+      <input type="text" name="listName">
+      <button class="show_add" type="button" name="addList" onclick="add_todo_list()">Hinzufügen</button>
+    </div>
+  </form>
+  </div>
+
+  <div class="move_to_right">
+    <p> Die ausgewählte Liste beinhaltet die folgenden TODO-Punkte: </p>
+    <ul>
+      <li>
+        <div class="row">
+          <div class="item">WebTech Klausur lernen</div>
+          <button class="delete_item" type="button">Löschen</button>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="item">WebTech Übung machen</div>
+          <button class="delete_item" type="button">Löschen</button>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="item">Skript lesen</div>
+          <button class="delete_item" type="button">Löschen</button>
+        </div>
+      </li>
+      <li>
+        <div class="row">
+          <div class="item">Python Tutorial machen</div>
+          <button class="delete_item" type="button">Löschen</button>
+        </div>
+      </li>
+    </ul>
+
+    <p> Weiteren TODO-Punkt hinzufügen: </p>
+    <form>
+      <div>
+        <input maxlength="50" name="input_new_todo_item" size="45" type="text" />
+        <button class="show_add" type="button" onclick="add_todo_items()">Hinzufügen</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+  function update_todo_items(){
+  console.log("Ich wurde gedrückt");
+  }
+
+  function remove_todo_list(){
+  console.log("Ich wurde gedrückt");
+  }
+
+  function add_todo_list(){
+  console.log("Ich wurde gedrückt");
+  }
+
+  function add_todo_items(){
+  console.log("Ich wurde gedrückt");
+  }
+
+  </script>
+
+</body>
+
+</html>
